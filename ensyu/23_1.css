@@ -15,5 +15,29 @@ p {
   font-size: 16px;
 }
 /*ここから*/
+p::before{
+  content:"■";
+  margin-right: 4px;
+  color: #ef626c;
+}
+input[type = "text"],select,
+textarea {
+  background: #fff;
+  border: none;
+  width: 100%;
+  scroll-padding: 10px;
+  border-radius: 5px;
+}
+.job{
+  margin-right: 2em;
+}
+select
+
+
+
+
+
+
+
 
 /*ここまで*/
