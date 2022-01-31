@@ -11,33 +11,49 @@ form {
 }
 p {
   margin: 20px 0 4px;
-  color: #ef626c;
+  color: #EF626C;
   font-size: 16px;
 }
 /*ここから*/
 p::before{
-  content:"■";
+  content: "■";
   margin-right: 4px;
-  color: #ef626c;
+  color: #EF626C;
 }
-input[type = "text"],select,
-textarea {
+input[type="text"],select,textarea{
   background: #fff;
   border: none;
   width: 100%;
-  scroll-padding: 10px;
+  padding: 10px;
   border-radius: 5px;
 }
 .job{
   margin-right: 2em;
 }
-select
-
-
-
-
-
-
-
-
+select{
+  height: 40px;
+  font-size: 14px;
+}
+textarea{
+  height: 8em;
+}
+input[type="submit"]{
+  background: #EF626C;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  color: #fff;
+}
 /*ここまで*/
+
+
+
+
+
+
+
+
+
+
