@@ -5,7 +5,7 @@ h1 {
 }
 p {
   background: #60bfaa;
-  width: 50px;
+  width: 37px;
   color: #fff;
   font-weight: bold;
   line-height: 1;
@@ -40,6 +40,9 @@ p.padding3{
 /* 上5px・右40px・下20px・左5px（上から時計回り） */
 p.padding4{
   padding: 5px 40px 20px 5px;
+}
+.thrid p {
+  padding: 10px 15px;
 }
 /* 4辺とも20px */
 p.margin1{
